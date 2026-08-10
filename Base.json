@@ -11,7 +11,7 @@
         "UnableToWritePreferences": "无法在以下位置写入文件：{0}",
         "UnableToLoadWorld": "无法加载世界：",
         "BadHeaderBufferOverflow": "标头错误导致读取缓冲区溢出。",
-        "ExceptionNormal": "   普通异常：{0}",
+        "ExceptionNormal": " 普通异常：{0}",
         "TriedToRunServerTwice": "尝试在同一台计算机上运行两个服务器",
         "DataSentAfterConnectionLost": "尝试在断开连接后将数据发送至客户端",
         "NetMessageError": "消息 {0} 出错",
