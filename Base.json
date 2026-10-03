@@ -144,7 +144,8 @@
         "ServerIsFull": "此服务器已满，请稍后再试。",
         "WorldNameLengthTooLong": "所输入的世界名称太长！（字符数上限：{0}）",
         "SeedLengthTooLong": "所输入的种子太长！（字符数上限：{0}）",
-        "SecretSeedEnabled": "秘密已激活！"
+        "SecretSeedEnabled": "秘密已激活！",
+        "EnterSeedToggleNumber": "输入种子编号以启用/停用它（留空以继续）："
     },
     "UI": {
         "Effects": "效果",
@@ -400,7 +401,34 @@
         "SwitchPage": "切换页面",
         "HousingAssign": "分配{0}",
         "HousingEvict": "解除{0}",
-        "HousingAim": "瞄准"
+        "HousingAim": "瞄准",
+        "ItemLoadoutShareHint": "按 <share> 在不同配装间共享",
+        "ItemLoadoutShareHint2": "按 <share> 在不同配装间共享",
+        "ItemLoadoutShared": "与其他配装共享",
+        "ItemLoadoutSharedFrom": "共享自配装{0}",
+        "PortraitsDetailed": "肖像风格：精细",
+        "PortraitsCloseUp": "肖像风格：侧面",
+        "PortraitsFullBody": "肖像风格：复古",
+        "PortraitsDisabled": "肖像风格：禁用",
+        "FlashyEffectsWorldOn": "雷电特效：开",
+        "FlashyEffectsWorldOff": "雷电特效：减弱",
+        "FlashyEffectsInterfaceOn": "物品栏特效：开",
+        "FlashyEffectsInterfaceOff": "物品栏特效：减弱",
+        "PlayWhenUnfocusedOn": "失去焦点时暂停：关",
+        "PlayWhenUnfocusedOff": "失去焦点时暂停：开",
+        "DoubleTapDash": "双击冲刺",
+        "Dash": "冲刺",
+        "ToggleClassicGrid": "制作窗口样式",
+        "PreviousLoadout": "上一配装",
+        "NextLoadout": "下一配装",
+        "ArmorSetAbility": "盔甲套装能力",
+        "PanControlMode": "向前缩放",
+        "PanControlMode_OnAlways": "始终开启",
+        "PanControlMode_OffAlways": "始终关闭",
+        "PanControlMode_Click": "点击切换",
+        "PanControlMode_Hold": "按住使用",
+        "LookAheadGamepadInstruction": "缩放",
+        "Digtoise": "碎岩龟"
     },
     "CaptureBiomeChoice": {
         "0": "自动",
@@ -547,7 +575,8 @@
         "CannotTeleportToPylonBecauseNotEnoughNPCsAtCurrentPylon": "当前晶塔附近的村民不够多",
         "CannotTeleportToPylonBecauseThereIsDanger": "先打败当前的威胁才能使用晶塔网络！",
         "CannotTeleportToPylonBecauseNotMeetingBiomeRequirements": "此晶塔放置在了错误的生物群落",
-        "CannotTeleportToPylonBecauseAccessingLihzahrdTempleEarly": "古老的力量阻止你进入这个位置…"
+        "CannotTeleportToPylonBecauseAccessingLihzahrdTempleEarly": "古老的力量阻止你进入这个位置…",
+        "SteamHostOnlyAllowsFriends": "只有房主的Steam好友才能进入此服务器"
     },
     "GameUI": {
         "Storm": "暴风",
@@ -682,7 +711,8 @@
         "SuperCartDisabled": "矿车：普通",
         "BannersWindow": "旗帜窗口",
         "BannersTitle": "旗帜",
-        "SmartStackToNearby": "相似堆叠至附近的宝箱"
+        "SmartStackToNearby": "相似堆叠至附近的宝箱",
+        "NotEnoughMaterials": "材料不足"
     },
     "Controls": {
         "LeftClick": "左键点击",
@@ -924,7 +954,8 @@
         "VampireBurningInDaylight_3": "{0}曾经不是日行者。",
         "VampireBurningInDaylight_4": "{0}忘记了夏令时。",
         "VampireBurningInDaylight_5": "{0}烤焦了。",
-        "VampireBurningInDaylight_6": "{0}把自己烤熟了。"
+        "VampireBurningInDaylight_6": "{0}把自己烤熟了。",
+        "Spored": "{0}感染孢子而死"
     },
     "Misc": {
         "ForceWaterSettling": "迫使流水停止。",
@@ -963,14 +994,16 @@
         "PeddlersSatchelUsed": "旅商的背包变大！",
         "Vampirism": "你已成为吸血鬼。",
         "GemCritter": "宝石小动物",
-        "Jellyfish": "水母"
+        "Jellyfish": "水母",
+        "Seashells": "贝壳或海星"
     },
     "Currency": {
         "Platinum": "铂金",
         "Gold": "金",
         "Silver": "银",
         "Copper": "铜",
-        "DefenderMedals": "护卫奖章"
+        "DefenderMedals": "护卫奖章",
+        "DefenderMedals_PriceText": "护卫奖章"
     },
     "Achievements": {
         "ChallengerCategory": "挑战者",
@@ -3696,7 +3729,8 @@
         "Twitter": "Twitter",
         "Forums": "论坛",
         "Merch": "商店",
-        "Wiki": "维基网站"
+        "Wiki": "维基网站",
+        "Bluesky": "Bluesky"
     },
     "CreditsRollCategory_Localization": {
         "1": "语言文本",
@@ -3712,11 +3746,81 @@
         "11": "Pengolin",
         "12": "Shuki9",
         "13": "SLava_75",
-        "14": "da_karakum"
+        "14": "da_karakum",
+        "de-DE_1": "Chris “Criddle” Rohde",
+        "es-ES_1": "Frederic “DarkGames26”",
+        "es-ES_2": "AJ “Omnicat”",
+        "fr-FR_1": "Axel “Dinoxel” Simond",
+        "pl-PL_1": "Sergiusz “SereK” Zub",
+        "pl-PL_2": "mix39",
+        "pl-PL_3": "fdziarz",
+        "pl-PL_4": "plajerciak",
+        "pl-PL_5": "niewiadomy3",
+        "pl-PL_6": "polish_osaker",
+        "pl-PL_7": "breadboy30000",
+        "pl-PL_8": "Daniel “Mr.D” Kot",
+        "pt-BR_1": "Pixelnando",
+        "pt-BR_2": "Joanderson “JoJo” Souza",
+        "ru-RU_1": "Zavarski",
+        "ru-RU_2": "Dofoerix",
+        "ru-RU_3": "Niclaus “Royami” Leo",
+        "ru-RU_4": "Myawk",
+        "ru-RU_5": "Pengolin",
+        "ru-RU_6": "Shuki0",
+        "ru-RU_7": "SLava_66",
+        "ru-RU_8": "da_karakum",
+        "zh-Hans_1": "Wynn “westgrass” Chen",
+        "Andy-Bold-Cyrillic-1": "Alexey “Alex Great” Artomonov",
+        "Andy-Bold-Cyrillic-2": "Pavel “Zloy Wolf” Grishaev",
+        "ru-RU-9": "Anasu Meruku"
     },
     "CreditsRollCategory_Dedication": {
         "1": "谨此怀念 Jason Parker（1986—2023）",
         "2": "你永远是我们团队的一员",
         "3": "感谢你曾付出的一切"
+    },
+    "HotReload": {
+        "Updated": "已更新：{0}",
+        "ErrorUpdating": "更新出错：{0}\n{1}",
+        "LocalizationsReloaded": "由于更新，已重新加载本地化文本：{0}"
+    },
+    "SecretSeedDescription": {
+        "paintEverythingGray": "回到那个更简单的时代，摆脱那些烦人的颜色！（世界被涂成灰色）",
+        "paintEverythingNegative": "算了，反过来吧。（世界被涂成反色）",
+        "coatEverythingEcho": "明明就在眼前，却无人察觉。（世界覆上了回声涂层）",
+        "coatEverythingIlluminant": "这里怎么这么亮？（世界覆上了发光涂层）",
+        "noSurface": "地表什么的，过誉了……（世界没有地表层）",
+        "extraLivingTrees": "还有什么比一棵快乐小树更棒的呢？一大片巨大的生命树！（世界拥有更多、更大的生命树）",
+        "extraFloatingIslands": "你总是爱做白日梦，想入云端。（世界拥有更多漂浮岛）",
+        "errorWorld": "猫狗和平共处，大家集体发疯！（错误世界）",
+        "graveyardBloodmoonStart": "克拉图·维拉塔……领带！（世界遍布墓地，开局即为血月）",
+        "surfaceIsInSpace": "在太空，没人能听到你的尖叫。（地表层位置更高）",
+        "rainsForAYear": "你恐怕需要一艘更大的船。（世界永无休止地下着雨）",
+        "biggerAbandonedHouses": "是哪个失落的文明建造了这一切？（世界拥有更大的地下小屋）",
+        "randomSpawn": "我们到底在哪儿？（初始生成点随机）",
+        "addTeleporters": "走路是弱者的行为。（世界各地散布着传送器）",
+        "startInHardmode": "看来，你选择了痛苦之路……（世界开局即为困难模式）",
+        "noInfection": "终于，我们找到了解药！（世界开局没有腐化或猩红）",
+        "hallowOnTheSurface": "彩虹、小猫和死亡。（世界拥有神圣地表）",
+        "worldIsInfected": "伙计，我们现在可真是摊上大麻烦了！（整个世界被腐化或猩红侵蚀）",
+        "surfaceIsMushrooms": "听说松露人是个很有趣的“菌”子。（世界拥有蘑菇地表）",
+        "surfaceIsDesert": "就像海滩，但水少得多。（世界拥有沙漠地表）",
+        "pooEverywhere": "6号过道需要清理！（世界遍布粪便块）",
+        "noSpiderCaves": "八条腿实在太多了。（世界没有蜘蛛洞）",
+        "actuallyNoTraps": "不，说真的。这次我们是认真的，保证！（世界没有陷阱）",
+        "rainbowStuff": "红橙黄绿蓝靛紫到此一游。（世界包含各类彩虹方块及更多内容）",
+        "digExtraHoles": "小心脚下！（世界有额外的裂缝和深坑）",
+        "roundLandmasses": "哎呀，它们看起来就像一颗颗星球宝宝！（世界由小型星体组成）",
+        "extraLiquid": "寻找亚特兰蒂斯之旅开始了！（世界被水淹没）",
+        "portalGunInChests": "测试结果出来了：“你是个糟糕的人。”（传送枪可在任意宝箱中生成）",
+        "worldIsFrozen": "有些人总想逆坡滑冰……（世界由冰雪组成）",
+        "halloweenGen": "现在就差个玉米迷宫了。（世界开局自带南瓜）",
+        "endlessHalloween": "不给糖就捣蛋！（万圣节事件始终开启）",
+        "endlessChristmas": "看看树下有什么……（圣诞节事件始终开启）",
+        "vampirism": "你需要一支SPF9000的防晒霜。（玩家是吸血鬼——不惜一切代价避开阳光）",
+        "teamBasedSpawns": "离我们的地盘远点！（玩家生成点按队伍颜色区分）",
+        "dualDungeons": "买一送一，地牢大放送！（双地牢探索体验）",
+        "moreLightning": "宙斯不悦（更多雷击）",
+        "noLightning": "宙斯息怒了（禁用雷击）"
     }
 }

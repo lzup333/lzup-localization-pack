@@ -1033,7 +1033,19 @@
         "FartMinecartRight": "放屁车",
         "FartMinecartLeft": "{$BuffName.FartMinecartRight}",
         "TerraFartMinecartRight": "泰拉放屁车",
-        "TerraFartMinecartLeft": "{$BuffName.TerraFartMinecartRight}"
+        "TerraFartMinecartLeft": "{$BuffName.TerraFartMinecartRight}",
+        "PalworldMinionTrustyFoxsparks": "可靠的火绒狐",
+        "PalworldMinionTrustyCattiva": "可靠的捣蛋猫",
+        "PalworldMountTrustyChillet": "可靠的疾旋鼬",
+        "PalworldMountTrustyChilletIgnis": "可靠的疾旋火鼬",
+        "PotentAcid": "烈性酸液",
+        "ManaHeat": "魔力涌动",
+        "ClayPotMinion": "黏土蓓蕾",
+        "ChlorophyteSpore": "孢子侵染",
+        "AcceleratePoisons": "加速负面效果",
+        "ForbiddenMinion": "禁戒遗迹",
+        "BlueLightning": "电击",
+        "RedLightning": "电击"
     },
     "BuffDescription": {
         "ObsidianSkin": "对熔岩免疫",
@@ -1429,7 +1441,20 @@
         "FartMinecartRight": "{$BuffDescription.MinecartRight}",
         "FartMinecartLeft": "{$BuffDescription.MinecartLeft}",
         "TerraFartMinecartRight": "{$BuffDescription.MinecartRight}",
-        "TerraFartMinecartLeft": "{$BuffDescription.MinecartLeft}"
+        "TerraFartMinecartLeft": "{$BuffDescription.MinecartLeft}",
+        "PalworldMinionTrustyFoxsparks": "火绒狐将为你而战",
+        "PalworldMinionTrustyCattiva": "捣蛋猫将为你而战",
+        "PalworldMountTrustyChillet": "疾旋鼬将陪你一起探索\n它跑起来相当威猛！",
+        "PalworldMountTrustyChilletIgnis": "疾旋火鼬将陪你一起探索\n小心别抚摸它太长时间，否则火花将会开始飞舞！",
+        "PotentAcid": "正在损失生命值",
+        "ManaHeat": "魔法伤害提高",
+        "ManaSickness2": "无法再使用魔力恢复物品",
+        "ClayPotMinion": "黏土蓓蕾将为你而战",
+        "ChlorophyteSpore": "正在损失生命值",
+        "AcceleratePoisons": "增强中毒效果",
+        "ForbiddenMinion": "禁戒遗迹将为你而战",
+        "BlueLightning": "你感到一阵刺痛",
+        "RedLightning": "你感到一阵刺痛"
     },
     "ArmorSetBonus": {
         "SquireTier3": "提高哨兵数量上限\n大幅提升弩车效力",
@@ -2390,7 +2415,8 @@
         "Sort_Alphabetical": "名字",
         "CantUsePowerBecauseOfNoPermissionFromServer": "你无权使用此力量",
         "InfiniteItemSacrificeShortDescription": "研究<item name>将消耗它",
-        "ItemWasJustUnlockedInfinitely": "研究足够多的<item name>后，你将能无限使用它！"
+        "ItemWasJustUnlockedInfinitely": "研究足够多的<item name>后，你将能无限使用它！",
+        "Sort_PlaceableObjects": "可放置物体"
     },
     "LucyTheAxe_Idle": {
         "1": "嘿！砍些树吧！",
